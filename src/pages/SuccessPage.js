@@ -65,7 +65,7 @@ const SuccessPage = () => {
             }}
           >
             <img
-              src="/group.png"
+              src="/Group.png"
               alt="Success"
               style={{
                 width: '120px',
