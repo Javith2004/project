@@ -130,11 +130,11 @@ const HeroSection = () => {
         {/* ================= FEATURES IMAGE ================= */}
         <Paper
           sx={{
-            backgroundColor: '#1a1a1a',
+            backgroundColor: '#0A0A0A',
             p: 3,
-            borderRadius: '16px',
-            mb: 6,
-            border: '1px solid #2A2A2A',
+           
+           
+         
           }}
         >
           <Box
@@ -154,9 +154,9 @@ const HeroSection = () => {
           sx={{
             backgroundColor: '#0A0A0A',
             p: 4,
-            borderRadius: '16px',
+           
             mb: 8,
-            border: '1px solid #2A2A2A',
+           
           }}
         >
           <Typography
