@@ -139,7 +139,7 @@ const HeroSection = () => {
         >
           <Box
             component="img"
-            src="/frame 119.png"
+            src="/Frame 119.png"
             alt="AI workflow features"
             sx={{
               width: '100%',
