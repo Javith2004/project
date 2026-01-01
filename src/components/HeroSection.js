@@ -127,7 +127,7 @@ const HeroSection = () => {
           </Button>
         </Box>
 
-        {/* ================= FEATURES IMAGE ================= */}
+         {/* ================= FEATURES IMAGE ================= */}
         <Paper
           sx={{
             backgroundColor: '#0A0A0A',
@@ -150,39 +150,42 @@ const HeroSection = () => {
         </Paper>
 
         {/* ================= GRAPH SECTION ================= */}
-        <Paper
-          sx={{
-            backgroundColor: '#0A0A0A',
-            p: 4,
-           
-            mb: 8,
-           
-          }}
-        >
-          <Typography
-            align="center"
-            sx={{ 
-              mb: 3, 
-              fontSize: '14px',
-              color: '#CCCCCC',
-            }}
-          >
-            Overall Efficiency Score vs Previous Score{' '}
-            <Box component="span" sx={{ color: '#4CAF50', fontWeight: 700 }}>
-              +34%
-            </Box>
-          </Typography>
+<Paper
+  sx={{
+    backgroundColor: '#0A0A0A',
+    p: 4,
+    borderRadius: 1,
+    mb: 8,
 
-          <Box
-            component="img"
-            src="/Line Graph - 2.png"
-            alt="Efficiency graph"
-            sx={{
-              width: '100%',
-              borderRadius: '12px',
-            }}
-          />
-        </Paper>
+    /* 🔹 TOP BORDER */
+    borderTop: '1px solid rgba(255, 255, 255, 0.08)',
+  }}
+>
+  <Typography
+    align="center"
+    sx={{
+      mb: 3,
+      fontSize: '14px',
+      color: '#CCCCCC',
+    }}
+  >
+    Overall Efficiency Score vs Previous Score{' '}
+    <Box component="span" sx={{ color: '#4CAF50', fontWeight: 700 }}>
+      +34%
+    </Box>
+  </Typography>
+
+  <Box
+    component="img"
+    src="/Line Graph - 2.png"
+    alt="Efficiency graph"
+    sx={{
+      width: '100%',
+      borderRadius: '12px',
+    }}
+  />
+</Paper>
+
 
         {/* ================= TRUSTED BY ================= */}
         <Box sx={{ textAlign: 'center' }}>
